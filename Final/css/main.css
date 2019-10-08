@@ -5,7 +5,6 @@
 }
 
 body{
-    background-image: url();
     font-family: Tahoma, sans-serif;
     background-image: url(../img/bgBlure.png);
     background-size: cover;
@@ -34,7 +33,7 @@ a{
     width: 100%;
     height: 500px;
     overflow: hidden;
-    position: absolute;
+    position: relative;
 
 }
 
@@ -78,7 +77,7 @@ a{
 }
 
 
-input{
+.slides input{
     position: absolute;
     visibility: hidden;
 }
@@ -109,7 +108,7 @@ input{
     background-color: rgba(32,34,35,0.8);
     text-align: center;
     line-height: 30px;
-    
+
 }
 
 .slider_text span{
