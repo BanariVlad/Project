@@ -7,6 +7,7 @@ li{
 
 
 .header_inner{
+    position: fixed;
     width: 100%;
     height: 50px;
     display: flex;
@@ -14,6 +15,7 @@ li{
     background-color: #202223;
     font-size: 20px;
     opacity: 0.8;
+    z-index: 2;
 }
 
 nav{
